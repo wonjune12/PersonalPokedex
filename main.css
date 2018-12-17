@@ -1,20 +1,20 @@
-.page3, .page2, #indexPage, .page1 {
+#page3, #page2, #indexPage, #page1 {
   color: white;
   height: 968px; }
 
-.page3 {
+#page3 {
   background: linear-gradient(to bottom, #1b31ad, #627cb4); }
-  .page3 .breadcrumb {
+  #page3 .breadcrumb {
     background: #1b31ad; }
 
-.page2 {
+#page2 {
   background: linear-gradient(to bottom, #b42222, #eb6969); }
-  .page2 .breadcrumb {
+  #page2 .breadcrumb {
     background: #b42222; }
 
-#indexPage, .page1 {
+#indexPage, #page1 {
   background: linear-gradient(to bottom, #35b8a8, #9ec35f); }
-  #indexPage .breadcrumb, .page1 .breadcrumb {
+  #indexPage .breadcrumb, #page1 .breadcrumb {
     background-color: #35b8a8; }
 
 .row {
