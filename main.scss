@@ -51,15 +51,15 @@ $navBarSize : 4rem;
     position : relative;
     animation : slideDown 1s forwards;
 }
-.page1{
+#page1{
     @extend %grassType;
 }
 
-.page2{
+#page2{
     @extend %fireType;
 }
 
-.page3{
+#page3{
     @extend %waterType;
 }
 
