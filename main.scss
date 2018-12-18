@@ -64,8 +64,8 @@ $navBarSize : 4rem;
 }
 
   #pokeImg {
-    height: 600px;
-    width: 550px; }
+    height: 550px;
+    width: 480px; }
   
   #headerImg {
     height: 92px;
@@ -98,17 +98,17 @@ $navBarSize : 4rem;
     background-color : #35b8a8;
   }
 
-  .media{
-    margin: $std-margin;
-  }
+//   .media{
+//     margin: $std-margin;
+//   }
 
-  .media-body{
-    font: $pokeApiFont;
-    margin : 0 $std-margin;
-  }
+//   .media-body{
+//     font: $pokeApiFont;
+//     margin : 0 $std-margin;
+//   }
   .container{
     font:$pokeApiFont;
-    margin-top : $std-margin;
+    margin : $std-margin;
     text-align:center;
   }
   /*# sourceMappingURL=main.css.map */
@@ -117,16 +117,16 @@ $navBarSize : 4rem;
     max-width: 33%;
 }
 
-.media-img{
-    margin : $media-margin;
-    position:relative;
-    animation : slideInRight 1.5s forwards;
-}
-.media-body{
-    margin : $media-margin;
-    position:relative;
-    animation : slideInLeft 1.5s forwards;
-}
+// .media-img{
+//     margin : $media-margin;
+//     position:relative;
+//     animation : slideInRight 1.5s forwards;
+// }
+// .media-body{
+//     margin : $media-margin;
+//     position:relative;
+//     animation : slideInLeft 1.5s forwards;
+// }
 
 #pokeball-icon-landing:hover{
     opacity : 0.4;
@@ -150,7 +150,7 @@ $navBarSize : 4rem;
   @keyframes slideDown{
       from{
           opacity:0;
-          top: 1110px;
+          top: -1110px;
       }
       to{
           opacity:1;
