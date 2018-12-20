@@ -19,18 +19,24 @@
 
 .row {
   margin-top: 100px;
-  opacity: 0;
+  opacity: 1;
   display: flex;
   justify-content: space-around;
-  height: 350px; }
+  width: 100%; }
+
+#indexRow {
+  margin-top: 100px;
+  opacity: 0;
+  display: flex;
+  justify-content: space-around; }
 
 .row.slideDown {
   position: relative;
   animation: slideDown 1s forwards; }
 
 #pokeImg {
-  height: 600px;
-  width: 550px; }
+  height: 470px;
+  width: 470px; }
 
 #headerImg {
   height: 92px;
@@ -53,18 +59,11 @@ nav:hover {
   height: 4rem; }
 
 #pokeball-icon-landing {
-  height: 70%; }
+  height: 300px; }
 
 .breadcrumb {
   margin-bottom: 50px;
   background-color: #35b8a8; }
-
-.media {
-  margin: 50px; }
-
-.media-body {
-  font: 2em "Russo One";
-  margin: 0 50px; }
 
 .container {
   font: 2em "Russo One";
@@ -72,16 +71,12 @@ nav:hover {
   text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
-.col-md-3 {
-  max-width: 33%; }
-
-.media-img {
-  margin: 0 170px 0 170px;
+#imgSide {
   position: relative;
   animation: slideInRight 1.5s forwards; }
 
-.media-body {
-  margin: 0 170px 0 170px;
+#bodySide {
+  text-align: left;
   position: relative;
   animation: slideInLeft 1.5s forwards; }
 
@@ -101,7 +96,7 @@ nav:hover {
 @keyframes slideDown {
   from {
     opacity: 0;
-    top: 1110px; }
+    top: -610px; }
   to {
     opacity: 1;
     top: 0px; } }
