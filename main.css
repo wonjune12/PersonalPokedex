@@ -19,18 +19,24 @@
 
 .row {
   margin-top: 100px;
-  opacity: 0;
+  opacity: 1;
   display: flex;
   justify-content: space-around;
-  height: 350px; }
+  width: 100%; }
+
+#indexRow {
+  margin-top: 100px;
+  opacity: 0;
+  display: flex;
+  justify-content: space-around; }
 
 .row.slideDown {
   position: relative;
   animation: slideDown 1s forwards; }
 
 #pokeImg {
-  height: 550px;
-  width: 480px; }
+  height: 470px;
+  width: 470px; }
 
 #headerImg {
   height: 92px;
@@ -53,7 +59,7 @@ nav:hover {
   height: 4rem; }
 
 #pokeball-icon-landing {
-  height: 70%; }
+  height: 300px; }
 
 .breadcrumb {
   margin-bottom: 50px;
@@ -61,12 +67,18 @@ nav:hover {
 
 .container {
   font: 2em "Russo One";
-  margin: 50px;
+  margin-top: 50px;
   text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
-.col-md-3 {
-  max-width: 33%; }
+#imgSide {
+  position: relative;
+  animation: slideInRight 1.5s forwards; }
+
+#bodySide {
+  text-align: left;
+  position: relative;
+  animation: slideInLeft 1.5s forwards; }
 
 #pokeball-icon-landing:hover {
   opacity: 0.4; }
@@ -75,16 +87,11 @@ nav:hover {
   from {
     left: -1800px; }
   to {
-    left: 0; } }
-@keyframes slideInRight {
-  from {
-    right: -1800px; }
-  to {
     right: 0; } }
 @keyframes slideDown {
   from {
     opacity: 0;
-    top: -1110px; }
+    top: -610px; }
   to {
     opacity: 1;
     top: 0px; } }

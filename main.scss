@@ -41,10 +41,18 @@ $navBarSize : 4rem;
 }
 .row{
     margin-top : 100px;
+    opacity:1;
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+
+}
+#indexRow{
+    margin-top : 100px;
     opacity:0;
     display:flex;
     justify-content: space-around;
-    height: 350px;
+
 
 }
 .row.slideDown{
@@ -63,9 +71,10 @@ $navBarSize : 4rem;
     @extend %waterType;
 }
 
-  #pokeImg {
-    height: 550px;
-    width: 480px; }
+#pokeImg {
+    height: 470px;
+    width: 470px; 
+}
   
   #headerImg {
     height: 92px;
@@ -89,44 +98,37 @@ $navBarSize : 4rem;
   }
   #pokeball-icon{
     height : $navBarSize;
-  }
-  #pokeball-icon-landing{
-      height : 70%;
-  }
-  .breadcrumb{
-    margin-bottom : $std-margin;
-    background-color : #35b8a8;
-  }
-
-//   .media{
-//     margin: $std-margin;
-//   }
-
-//   .media-body{
-//     font: $pokeApiFont;
-//     margin : 0 $std-margin;
-//   }
-  .container{
-    font:$pokeApiFont;
-    margin : $std-margin;
-    text-align:center;
-  }
-  /*# sourceMappingURL=main.css.map */
-  
-.col-md-3{
-    max-width: 33%;
 }
 
-// .media-img{
-//     margin : $media-margin;
-//     position:relative;
-//     animation : slideInRight 1.5s forwards;
-// }
-// .media-body{
-//     margin : $media-margin;
-//     position:relative;
-//     animation : slideInLeft 1.5s forwards;
-// }
+#pokeball-icon-landing{
+      height : 300px;
+}
+
+.breadcrumb{
+    margin-bottom : $std-margin;
+    background-color : #35b8a8;
+}
+
+.container{
+    font:$pokeApiFont;
+    margin-top: $std-margin;
+    text-align:center;
+}
+
+
+  /*# sourceMappingURL=main.css.map */
+  
+
+#imgSide{
+    position:relative;
+    animation : slideInRight 1.5s forwards;
+}
+#bodySide{
+    text-align: left;
+    position:relative;
+    animation : slideInLeft 1.5s forwards;
+}
+
 
 #pokeball-icon-landing:hover{
     opacity : 0.4;
@@ -136,24 +138,17 @@ $navBarSize : 4rem;
           left: -1800px;
       }
       to{
-          left:0;
-      }
-  }
-  @keyframes slideInRight{
-      from{
-          right : -1800px;
-      }
-      to{
-          right : 0;
-      }
-  }
-  @keyframes slideDown{
-      from{
-          opacity:0;
-          top: -1110px;
-      }
-      to{
-          opacity:1;
-          top:0px;
-      }
-  }
+        right : 0;
+    }
+}
+
+@keyframes slideDown{
+    from{
+        opacity:0;
+        top:-610px;
+    }
+    to{
+        opacity:1;
+        top:0px;
+    }
+}

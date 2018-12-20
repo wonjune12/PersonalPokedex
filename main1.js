@@ -7,6 +7,7 @@ var showMain = document.querySelector("#main");
 
 clickEvent.addEventListener("click",(event)=>{
     localStorage.setItem("key",document.getElementById("trainer-name").value); 
-    showMain.classList.add("slideDown");
+    var getType = localStorage.getItem["types"];
+    showRow.classList.add("slideDown")
 })
 
