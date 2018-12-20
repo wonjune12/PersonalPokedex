@@ -41,10 +41,18 @@ $navBarSize : 4rem;
 }
 .row{
     margin-top : 100px;
+    opacity:1;
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+
+}
+#indexRow{
+    margin-top : 100px;
     opacity:0;
     display:flex;
     justify-content: space-around;
-    height: 350px;
+
 
 }
 .row.slideDown{
@@ -64,38 +72,36 @@ $navBarSize : 4rem;
 }
 
 #pokeImg {
-    height: 600px;
-    width: 550px; 
+    height: 470px;
+    width: 470px; 
 }
   
-#headerImg {
+  #headerImg {
     height: 92px;
-    width: 250px; 
-}
+    width: 250px; }
   
-input{
+  input{
     width : 40%;
     text-align : center;
-}
+  }
   
-nav{
+  nav{
     opacity:0;
-}
+  }
   
-nav:hover{
+  nav:hover{
     opacity:1;
-}
+  }
   
-#pokeLogo-navBar{
+  #pokeLogo-navBar{
     height :$navBarSize;
-}
-
-#pokeball-icon{
+  }
+  #pokeball-icon{
     height : $navBarSize;
 }
 
 #pokeball-icon-landing{
-      height : 70%;
+      height : 300px;
 }
 
 .breadcrumb{
@@ -103,54 +109,34 @@ nav:hover{
     background-color : #35b8a8;
 }
 
-.media{
-    margin: $std-margin;
-}
-
-.media-body{
-    font: $pokeApiFont;
-    margin : 0 $std-margin;
-}
-
 .container{
     font:$pokeApiFont;
-    margin-top : $std-margin;
+    margin-top: $std-margin;
     text-align:center;
 }
+
+
   /*# sourceMappingURL=main.css.map */
   
-.col-md-3{
-    max-width: 33%;
-}
 
-.media-img{
-    margin : $media-margin;
+#imgSide{
     position:relative;
     animation : slideInRight 1.5s forwards;
 }
-.media-body{
-    margin : $media-margin;
+#bodySide{
+    text-align: left;
     position:relative;
     animation : slideInLeft 1.5s forwards;
 }
 
+
 #pokeball-icon-landing:hover{
     opacity : 0.4;
 }
-  
-@keyframes slideInLeft{
-    from{
-        left: -1800px;
-    }
-    to{
-        left:0;
-    }
-}
-  
-@keyframes slideInRight{
+  @keyframes slideInLeft{
       from{
-        right : -1800px;
-    }
+          left: -1800px;
+      }
       to{
         right : 0;
     }
@@ -159,7 +145,7 @@ nav:hover{
 @keyframes slideDown{
     from{
         opacity:0;
-        top: 1110px;
+        top:-610px;
     }
     to{
         opacity:1;
