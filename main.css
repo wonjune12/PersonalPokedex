@@ -87,6 +87,11 @@ nav:hover {
   from {
     left: -1800px; }
   to {
+    left: 0; } }
+@keyframes slideInRight {
+  from {
+    right: -1800px; }
+  to {
     right: 0; } }
 @keyframes slideDown {
   from {

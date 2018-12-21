@@ -138,7 +138,16 @@ $navBarSize : 4rem;
           left: -1800px;
       }
       to{
-        right : 0;
+        left : 0;
+    }
+}
+
+@keyframes slideInRight{
+    from {
+        right :-1800px;
+    }
+    to{
+        right :0;
     }
 }
 
