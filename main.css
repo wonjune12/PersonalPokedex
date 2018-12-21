@@ -30,7 +30,7 @@
   display: flex;
   justify-content: space-around; }
 
-.row.slideDown {
+#row.slideDown {
   position: relative;
   animation: slideDown 1s forwards; }
 
